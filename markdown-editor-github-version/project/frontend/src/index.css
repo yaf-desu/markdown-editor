@@ -1,0 +1,12 @@
+@import "tailwindcss";
+* {
+  box-sizing: border-box;
+}
+/*These two are for icon buttons*/
+.wrapper {
+  @apply p-2 rounded-full hover:bg-black/30 transform hover:scale-110 transition duration-150 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-white/40;
+}
+.icon {
+  @apply text-white;
+}
+/* TODO: trying to figure out some css features */
